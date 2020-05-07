@@ -33,14 +33,14 @@
        (stretchability . 0))
 
 	top-system-spacing =
-    #'((basic-distance . 15)
-       (minimum-distance . 15)
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
        (padding . -100)
        (stretchability . 0))
 
 	top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
+    #'((basic-distance . 5)
+       (minimum-distance . 5)
        (padding . -100)
        (stretchability . 0))
 
@@ -92,8 +92,6 @@
 		\beam #2.0 #0.5 #0.48
 		\raise #1.0 \beam #2.0 #0.5 #0.48
 	}
-
-	systems-per-page = #1
 }
 
 #(define-markup-command (remark layout props text) (markup?)

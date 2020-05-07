@@ -30,7 +30,7 @@
 					\KyrieTimpani
 				}
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
+					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
 							\KyrieViolinoI
@@ -73,19 +73,21 @@
 					\new Lyrics \lyricsto Basso \KyrieBassoLyrics
 				>>
 				\new PianoStaff <<
-					\set PianoStaff.instrumentName = \markup { \center-column { "Bassi" "e Organo" } }
-					\new Staff { \KyrieOrganoSolo }
+					\set PianoStaff.instrumentName = "Organo"
+					\new Staff { \KyrieOrganoR }
+					\new Staff { \KyrieOrganoL }
+				>>
+				\new FiguredBass { \KyrieBassFigures }
+				\new StaffGroup <<
 					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Violoncello" "e Basso" } }
 						% \transpose c c,
-						\KyrieOrgano
+						\KyrieViolone
 					}
 				>>
-				\new FiguredBass {
-					\KyrieBassFigures
-				}
 			>>
 			\layout { }
-			% \midi { \tempo 4 = 120 }
+			% \midi { \tempo 4 = 110 }
 		}
 	}
 }
