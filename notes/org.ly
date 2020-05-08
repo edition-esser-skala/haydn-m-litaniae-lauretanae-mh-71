@@ -23,7 +23,7 @@ KyrieOrganoR = {
 		a a, h cis d e f g a f e d
 		g8.\trill a16 c,4 h\trill
 		c r r %15
-		R2.*10 %25
+		s2.*10 %25
 		g16 a g fis g a h c d h a g
 		fis4. g8 a g16 fis
 		g a g fis g a h c d e fis g
@@ -32,7 +32,7 @@ KyrieOrganoR = {
 		a h c h a g fis e d c h a
 		h d g d a'2\trill
 		\tiny g4 \normalsize r r
-		R2.*26 %59
+		s2.*26 %59
 		r4 a16 h c d e c h a %60
 		f' g f e d e d c h c h a
 		gis a gis fis e4 r
@@ -43,7 +43,7 @@ KyrieOrganoR = {
 		c16 d c h c a e' c a' gis a e
 		f8 e16 d d c h a h4\trill
 		\tiny a \normalsize r r
-		R2.*24 %93
+		s2.*24 %93
 		r4 h'16 a g fis e d! c h
 		c d c h c a a' g fis g fis e %95
 		dis e dis cis dis h h' ais h fis e dis
@@ -52,7 +52,7 @@ KyrieOrganoR = {
 		g fis e dis e d c h a g fis e
 		c' a g fis fis2\trillE %100
 		e4 r r
-		R2.*46 %147
+		s2.*46 %147
 		r4 c''16 h a g f e d c
 		a' g f e f e d cis d a h c
 		c4\trill h r %150
@@ -774,8 +774,8 @@ ReginaOrganoR = {
 		g8. a16 \oneVoice h c d e f g a h
 		c8. g16 g2\trill
 		a16 f e d \appoggiatura { c16[ d e] } d2\trill %20
-		\voiceOne c4 \oneVoice r r
-		R2.*12 %33
+		\voiceOne c4 \oneVoice s s
+		s2.*12 %33
 		r4 r c16 h a g
 		\voiceOne f'2 e4 %35
 		\oneVoice a,8. d16 c4 h
@@ -783,7 +783,7 @@ ReginaOrganoR = {
 		\voiceOne f'2 e4
 		\oneVoice a,8.\trill d16 c4 h
 		c8.(\trill h32 c) d4 r %40
-		R2.*13 %53
+		s2.*13 %53
 		r4 r g,16 fis e d
 		\voiceOne c'2 h4 %55
 		\oneVoice e,8.\trill a16 g4 fis
@@ -797,14 +797,14 @@ ReginaOrganoR = {
 		d~
 		d16 e d e \oneVoice \tieSolid fis g fis g a8 c, %65
 		\appoggiatura c16 h8 a16 g a2\trill
-		\voiceOne g4 \oneVoice r r
-		R2.*20 %87
+		\voiceOne g4 \oneVoice s s
+		s2.*20 %87
 		r4 e'4. d16 e
 		f8 a, h f' e16 c h a
 		d h c d e fis gis a h8 d, %90
 		\appoggiatura d16 c8 h16 a h2\trill
-		a4 r r
-		R2.*31 %123
+		a4 s s
+		s2.*31 %123
 		r4 g'4.\trill f16 g
 		\voiceOne a8 cis, d16 f e d a'4\trill %125
 		h8 dis, e16 g fis e h'4\trill
@@ -819,9 +819,9 @@ ReginaOrganoR = {
 		g8. a16 \oneVoice h c d e f g a h %135
 		c8. g16 g2\trill
 		a16 f e d d2\trill
-		\voiceOne c4 \oneVoice r r
-		R2.
-		R\fermataMarkup \bar "||" %140 finis
+		\voiceOne c4 \oneVoice s s
+		s2.
+		s \bar "||" %140 finis
 	} \\ \relative c' {
 		<e g>2 s4
 		d'2 c4
@@ -1276,27 +1276,26 @@ AgnusDeiOrganoR = {
 	\clef treble
 	\key e \phrygian \time 4/4 \tempoAgnusDei
 	<< \relative c' {
-		\oneVoice R1*4
+		\oneVoice s1*4
 		r4 h8 g' h, ais a4~ %5
 		a16 dis fis? e dis c h a g h e g h4~
 		h16 a c h a g fis e e8\trill dis r h'
 		\voiceOne ais4 \tuplet 3/2 8 { h16[ c h] a gis a } gis4 \tuplet 3/2 8 { a16[ h a] g fis? g } %8
 		\oneVoice fis? fis\trill a a\trill c c\trill dis dis\trill e32 h g' fis? e[ dis e ais,] h ais h fis g[ fis g dis]
-		e[ dis e ais,] h a' g fis fis4\trill e r %10
-		R1*5 %15
+		e[ dis e ais,] h a' g fis fis4\trill e s %10
+		s1*5 %15
 		r4 e8 c' e, dis d4~
 		d16 gis h a gis f e d c e a c e4~
 		e16 d f e d c h a a8 gis r e'
 		\voiceOne dis4 \tuplet 3/2 8 { e16[ f e] d cis d } cis4 \tuplet 3/2 8 { d16[ e d] c h c }
 		\oneVoice h h\trill d d\trill f f\trill gis gis\trill a32[ e c' h] a gis a dis, e[ dis e h] c h c gis %20
-		a[ gis a dis,] e d' c h h4\trill a r
-		R1*4 %25
+		a[ gis a dis,] e d' c h h4\trill a s
+		s1*4 %25
 		\clef bass r2 g,4 e'
 		g, fis f d'8. f,16
 		f8\trill e c'8. b16 a8 \voiceOne f'4 e8 \noBreak
 		e4 d \oneVoice r2\fermata \bar "||"
-		\key c \major \time 12/8 R1.*27 %56
-		R1.\fermataMarkup \bar "|." %57 FINIS
+		\key c \major \time 12/8 s1.*28 %57 FINIS
 	} \\ \relative c' {
 		s1*7 %7
 		r8 g' fis? d r f e cis
