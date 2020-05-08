@@ -613,13 +613,104 @@ ReginaBassoLyrics = \lyricmode {
 	bis. %124 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key e \phrygian \time 4/4 \autoBeamOff \tempoAgnusDei
+		\mvTr e4\fE^\tuttiE e fis g8 e
+		c c16 c c8 c h h r4
+		a4 a a a
+		g8 g a a h4. h8
+		e4 r r2 %5
+		R1*5 %10
+		g4 g fis fis8 fis
+		g g r g gis4 gis8 gis
+		a g f!4 e r
+		d2 d4 d8 d
+		c4 d8 d e4. e8 %15
+		a,4 r r2
+		R1*5 %21
+		c4 c c c
+		r r8 c h4 c
+		r r8 c as4. as8
+		g4 g8 g' g4 fis %25
+		g g, r2
+		R1*2 \noBreak
+		R1\fermataMarkup \bar "||"
+		\key c \major \time 12/8 \newSpacingSection \tempoMiserere
+			c4 d8 e([ d c] g'4 a8) h([ a g)] \noBreak %30
+		c([ h)] a g4 f8 e4.( fis)\trill
+		g e d r4 r8
+		r4 r8 d4 d8 g4. f!
+		e4( d8) c4. r1*3/4
+		R1. %35
+		r1*3/4 c'4. a
+		h fis g( e)
+		d d4 d8 d2.
+		d d~
+		d g,4. r4 r8 %40
+		R1.*3
+		c'4. a h g
+		c,4( d8) e([ d c)] g'4( a8 h[ a g)] %45
+		c4. r4 r8 f,4 g8 a([ g f])
+		h4. r4 r8 e,4 f8 g([ f e)]
+		a4. r4 r8 d,4( e8 f[ e d)]
+		g4. g4 g8 c,4 h8 c4.
+		g' r4 r8 g2.\p %50
+		g4. r4 r8 g2.\f
+		g g
+		g g
+		c,4. r4 r8 c2.
+		c c4. c %55
+		f1.
+		c\fermata \bar "|." %57 FINIS
+	}
+}
+
+AgnusDeiBassoLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis pec -- ca -- ta mun -- di:
+	Par -- ce no -- bis,
+	par -- ce no -- bis, Do -- mi --
+	ne. %5
+
+	A -- gnus De -- i, qui %11
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta mun -- di:
+	Ex -- au -- di, ex --
+	au -- di nos, Do -- mi -- %15
+	ne.
+
+	A -- gnus De -- i, %22
+	qui tol -- lis
+	pec -- ca -- ta
+	mun -- di, pec -- ca -- ta %25
+	mun -- di:
+
+	Mi -- se -- re -- re, __ %30
+	mi -- se -- re -- re no --
+	bis, no -- bis,
+	mi -- se -- re -- re
+	no -- bis,
+	%35
+	mi -- se --
+	re -- re no --
+	bis, mi -- se -- re --
+	re no --
+	bis. %40
+
+	Mi -- se -- re -- re, %44
+	mi -- se -- re -- %45
+	re, mi -- se -- re --
+	re, mi -- se -- re --
+	re no --
+	bis, mi -- se -- re -- re no --
+	bis, no -- %50
+	bis, mi --
+	se -- re --
+	re no --
+	bis, mi --
+	se -- re -- re %55
+	no --
+	bis. %57 FINIS
+}

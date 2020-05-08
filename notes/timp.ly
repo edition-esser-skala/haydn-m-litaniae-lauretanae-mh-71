@@ -131,3 +131,39 @@ ReginaTimpani = {
 		c r r\fermata \bar "||" %140 finis
 	}
 }
+
+AgnusDeiTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnusDei
+		R1*21 %21
+		c4\fE c8 c c4 c
+		r r8 c g4 c
+		R1
+		g4 r r2 %25
+		g4 r r2
+		R1*2 \noBreak
+		g4\pE g8. g16 g2\fermata \bar "||"
+		\time 12/8 \newSpacingSection \tempoMiserere R1.*3 %32
+		r1*3/4 r4 r8 g4\fE g8
+		c4 c8 c c c g4. r4 r8
+		R1. %35
+		g4. r4 r8 g4. r4 r8
+		R1.
+		g4. r4 r8 r1*3/4
+		g4. r4 r8 r1*3/4
+		R1.*2 %41
+		r1*3/4 g4. r4 r8
+		R1.*2
+		c2. g8 g g g-\critnote g g %45
+		c4. r4 r8 r1*3/4
+		R1.*4 %50
+		r1*3/4 g4. r4 r8
+		r1*3/4 g4. r4 r8
+		R1.
+		c4. r4 r8 r1*3/4
+		c8 c c c c c c c c c c c %55
+		c c c c c c c c c c c c
+		c1.\fermata \bar "|." %57 FINIS
+	}
+}

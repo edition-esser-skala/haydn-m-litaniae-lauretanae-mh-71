@@ -893,7 +893,7 @@ ReginaOrganoL = {
 	\relative c {
 		\clef bass
 		\key c \major \time 3/4 \tempoRegina
-		c'4-\solo c, r
+		\mvTr c'4\pE-\solo c, r
 		r h' c
 		<< { f e d } \\ { f, g g } >>
 		c g r
@@ -913,7 +913,7 @@ ReginaOrganoL = {
 		<< { h4\trill } \\ { g } >> r f
 		e r e
 		f g g, %20
-		c c'-\tutti h
+		c \mvTr c'\fE-\tutti h
 		c c, r
 		h16 c d e f g a h c4
 		f, g g,
@@ -927,13 +927,13 @@ ReginaOrganoL = {
 		d h g
 		c8 c' g4 g,
 		c c' r
-		r h-\solo c %35
+		r \mvTr h\pE-\solo c %35
 		<< { f e d } \\ { f, g g } >>
 		c g r
 		r h c
 		<< { f e d } \\ { f, g g } >>
 		c g r %40
-		g-\tuttiE g g
+		\mvTr g\fE-\tuttiE g g
 		g g8 g, g' g,
 		g'4 g g
 		g g,16 a h c d e fis g
@@ -947,7 +947,7 @@ ReginaOrganoL = {
 		d16 e fis g a h c d e4
 		c d d,
 		g g, r
-		r fis'-\solo g %55
+		r \mvTr fis'\p-\solo g %55
 		<< { c h a } \\ { c, d d } >>
 		g d r
 		\clef treble r fis' g
@@ -959,7 +959,7 @@ ReginaOrganoL = {
 		g8 fis a g fis e
 		\clef bass d4 r fis, %65
 		g c, d
-		g, g'-\tutti fis
+		g, \mvTr g'\fE-\tutti fis
 		g g, r
 		fis16 g a h c d e fis g4
 		c, d d %70
@@ -980,11 +980,11 @@ ReginaOrganoL = {
 		c,16 d e fis gis a h c d4 %85
 		e,16 fis gis a h c d e f4
 		d e e,
-		a r c,-\soloE
+		a r \mvTr c,\pE-\soloE
 		d8 c' d d, c c'
 		h4 gis e %90
 		a d, e
-		a, a'-\tutti gis
+		a, \mvTr a'\f-\tutti gis
 		g fis r
 		g, g' fis
 		f e r %95
@@ -1016,7 +1016,7 @@ ReginaOrganoL = {
 		f g g,
 		c16 d e f g a h c h4
 		c g g,
-		c r e-\solo
+		c r \mvTr e\pE-\solo
 		f r r8 fis %125
 		g4 r r8 gis
 		a \rh gis' a \lh a, g \rh g'
@@ -1030,7 +1030,7 @@ ReginaOrganoL = {
 		<< { h4\trill } \\ { g } >> r f %135
 		e r e
 		f g g,
-		c r e-\tutti
+		c r \mvTr e\f-\tutti
 		f g g,
 		c r r\fermata \bar "||" %140 finis
 	}
@@ -1272,13 +1272,217 @@ ReginaViolone = {
 	}
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+AgnusDeiOrganoR = {
+	\clef treble
+	\key e \phrygian \time 4/4 \tempoAgnusDei
+	<< \relative c' {
+		\oneVoice R1*4
+		r4 h8 g' h, ais a4~ %5
+		a16 dis fis? e dis c h a g h e g h4~
+		h16 a c h a g fis e e8\trill dis r h'
+		\voiceOne ais4 \tuplet 3/2 8 { h16[ c h] a gis a } gis4 \tuplet 3/2 8 { a16[ h a] g fis? g } %8
+		\oneVoice fis? fis\trill a a\trill c c\trill dis dis\trill e32 h g' fis? e[ dis e ais,] h ais h fis g[ fis g dis]
+		e[ dis e ais,] h a' g fis fis4\trill e r %10
+		R1*5 %15
+		r4 e8 c' e, dis d4~
+		d16 gis h a gis f e d c e a c e4~
+		e16 d f e d c h a a8 gis r e'
+		\voiceOne dis4 \tuplet 3/2 8 { e16[ f e] d cis d } cis4 \tuplet 3/2 8 { d16[ e d] c h c }
+		\oneVoice h h\trill d d\trill f f\trill gis gis\trill a32[ e c' h] a gis a dis, e[ dis e h] c h c gis %20
+		a[ gis a dis,] e d' c h h4\trill a r
+		R1*4 %25
+		\clef bass r2 g,4 e'
+		g, fis f d'8. f,16
+		f8\trill e c'8. b16 a8 \voiceOne f'4 e8 \noBreak
+		e4 d \oneVoice r2\fermata \bar "||"
+		\key c \major \time 12/8 R1.*27 %56
+		R1.\fermataMarkup \bar "|." %57 FINIS
+	} \\ \relative c' {
+		s1*7 %7
+		r8 g' fis? d r f e cis
+		s1*10 %18
+		r8 c' h g r b a fis?
+		s1*8 %27
+		s2 s8 d4 c8
+		c4 h s2
+	} >>
+}
+
+AgnusDeiOrganoL = {
+	\relative c {
+		\clef bass
+		\key e \phrygian \time 4/4 \tempoAgnusDei
+		\mvTr e8\fE-\tuttiE e e e fis fis g e
+		c c c c h4 h'8 h,
+		a16 a' fis dis c fis dis c a c' a fis dis c h a
+		g8 g a a h h h h
+		e4 r8 \mvTr e\p-\solo fis? g fis? e %5
+		dis h r dis e4 g8 e
+		c'4 c8 a h, h' a g
+		fis? e' dis f, e d' cis e,
+		<< { c' c a a h4 } \\ { dis,8 dis dis fis g4 } >> r
+		g8 g a h e,4 \mvTr e8\f-\tutti fis %10
+		g g g g fis fis fis fis
+		g g g g gis gis gis gis
+		a g f!4 e e'8 e,
+		d16 d' h gis f h gis e d f' d h gis f e d
+		c8 c d d e e e e %15
+		a,4 r8 \mvTr a'\pE-\solo h c h a
+		gis e r gis a4 c8 a
+		f4 f8 d e e' d c
+		\clef treble h a' gis b, a g' fis a,
+		<< { f' f d d e4 } \\ { gis,8 gis gis h c4 } >> r %20
+		\clef bass << { r8 a a gis } \\ { c, c d e } >> a,4 \mvTr a8\fE-\tutti h
+		c2 c4. c'8
+		d4 e8 c, h4 c8 c'
+		h4 c8 c, as2
+		g4 g' g fis %25
+		g g16 f e d \mvTr c4\p-\soloE r8 c
+		d d, d' c h g r h
+		c4 e8 c f4 f8 fis \noBreak
+		g2 r\fermata \bar "||"
+		\key c \major \time 12/8 \newSpacingSection \tempoMiserere
+			\mvTr c,4-!\fE-\tuttiE d8-! e-! d-! c-! g'4 a8 h a g \noBreak %30
+		c h a g4 f8 e4. fis
+		g e d r4 r8
+		r4 r8 d4 d8 g4. f!
+		e4 d8 c4. \clef "treble_8" f' d
+		e h c8 h c a d c %35
+		h4 a8 g4. \clef bass c a
+		h fis g e
+		d2.~ d~-\tasto
+		d1.~
+		d2. g8 h g c e c %40
+		a c a fis a fis d fis d g h g
+		c, h c d c d g,4. \clef treble h''8 a g
+		<< { d'4 e8 fis e d } \\ { c4. a } >> \clef "treble_8" g,4 a8 h a g
+		\clef bass c4. a h g
+		c,4 d8 e d c g'4 a8 h a g %45
+		c4. r4 r8 f,4 g8 a g f
+		h4. r4 r8 e,4 f8 g f e
+		a4. r4 r8 d,4 e8 f e d
+		g4. g c,4 h8 c4 c8
+		g'2.\p g %50
+		g4. r4 r8 \once \tieDashed g2.~\f
+		g1.~-\tasto
+		g2. g
+		c,4.\p r4 r8 c2.~-\tasto
+		c1. %55
+		f,1.
+		c'\fermata \bar "|." %57 FINIS
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	r2 <6\\>4 <6>
+	r <7>8 <6\\> <6 4> <5+ _+>4.
+	<6\\ 4\+ 3>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<6>2 <6 4>4 <5+ _+>
+	r1*5 %9
+	r2. <6>8 <6 5> %10
+	r2 <6>
+	<9 4>8 <8 3>4. <6>2
+	r8 <6> <7> <6\\> <_+>2
+	<6 4\+ 3>2... \bassFigureExtendersOn q16 \bassFigureExtendersOff
+	<6>2 <6 4>4 <5 _+> %15
+	r1*5 %20
+	r2. <6!>8 <6 5>
+	<3>2 <7 4>4 <8 3>
+	<6> <6> <6 5>2
+	<6 5> <6\\ [5-]>
+	r2 <4 2>4 <6 5> %25
+	<[4]> <[3]>2.
+	r1*3
+	r2. <7>4. <10> %30
+	q q <6> q
+	r2. <7 4>4. <[\t _+]>
+	<6 4> <5 _+> r <\t>
+	<6>4 <[6]>8 r4. <4 2> <\t \t>
+	<[6]> q r <6\\> %35
+	<[6]>2. <4\+ 2>4. <\t \t>
+	<6> <[6]>2. <6\\>4.
+	<[_+]>1.
+	r
+	<5 4>4. <\t _+> r2. %40
+	r1.
+	r
+	r2. r4. <[6]>
+	<4\+ 2> <\t \t> <6> <[7!]>
+	r2. <7> %45
+	r q
+	r q
+	r q
+	<3 1>4 <4 2>8 <5 3>4. <5>4 <6 5>8 <9 4>4 <8 3>8
+	r2. <[6 4]>4 <[7 5]>8 <[\t \t]>4 <[6 4]>8 %50
+	<[5 3]>1.
+	r
+	r2. <4>4. <3>
+	r1.
+	r %55
+	<[5 3]>
+	r %57 FINIS
+}
+
+AgnusDeiViolone = {
+	\relative c {
+		\clef bass
+		\key e \phrygian \time 4/4 \tempoAgnusDei
+		e8\fE e e e fis fis g e
+		c c c c h4 h'8 h,
+		a16 a' fis dis c fis dis c a c' a fis dis c h a
+		g8 g a a h h h h
+		e4 r8 e\p fis? g fis? e %5
+		dis h r dis e4 g8 e
+		c'4 c8 a h, h' a g
+		fis? e' dis f, e d' cis e,
+		dis dis dis fis g4 r
+		g8 g a h e,4 e8\f fis %10
+		g g g g fis fis fis fis
+		g g g g gis gis gis gis
+		a g f!4 e e'8 e,
+		d16 d' h gis f h gis e d f' d h gis f e d
+		c8 c d d e e e e %15
+		a,4 r8 a'\p h c h a
+		gis e r gis a4 c8 a
+		f4 f8 d e e' d c
+		R1*2 %20
+		c,8 c d e a,4 a8\f h
+		c2 c4. c'8
+		d4 e8 c, h4 c8 c'
+		h4 c8 c, as2
+		g4 g' g fis %25
+		g g16 f e d c4\p r8 c
+		d d, d' c h g r h
+		c4 e8 c f4 f8 fis \noBreak
+		g2 r\fermata \bar "||"
+		\key c \major \time 12/8 \newSpacingSection \tempoMiserere
+			c,4\fE d8 e d c g'4 a8 h a g \noBreak %30
+		c h a g4 f8 e4. fis
+		g e d r4 r8
+		r4 r8 d4 d8 g4. f!
+		e4 d8 c4. \clef "treble_8" f' d
+		e h c8 h c a d c %35
+		h4 a8 g4. \clef bass c a
+		h fis g e
+		d1.~
+		d~
+		d2. g8 h g c e c %40
+		a c a fis a fis d fis d g h g
+		c, h c d c d g,4. r4 r8
+		r1*3/4 \clef "treble_8" g'4 a8 h a g
+		\clef bass c4. a h g
+		c,4 d8 e d c g'4 a8 h a g %45
+		c4. r4 r8 f,4 g8 a g f
+		h4. r4 r8 e,4 f8 g f e
+		a4. r4 r8 d,4 e8 f e d
+		g4. g c,4 h8 c4 c8
+		g'2.\p g %50
+		g4. r4 r8 g2.~\f
+		g1.~
+		g2. g
+		c,4. r4 r8 c2.~
+		c1. %55
+		f,1.
+		c'\fermata \bar "|." %57 FINIS
+	}
+}

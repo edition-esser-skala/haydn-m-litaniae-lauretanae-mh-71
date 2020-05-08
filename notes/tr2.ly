@@ -180,3 +180,40 @@ ReginaTrombaII = {
 		e r r\fermata \bar "||" %140 finis
 	}
 }
+
+AgnusDeiTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnusDei
+		R1*21 %21
+		e'2\fE d4 c
+		r r8 e d4 e
+		R1
+		g,4 r r2 %25
+		g4 r r2
+		R1*2 \noBreak
+		g4\pE g8. g16 g2\fermata \bar "||"
+		\time 12/8 \newSpacingSection \tempoMiserere R1.*3 %32
+		r1*3/4 r4 r8 g4\fE g8
+		c4 d8 e d c g4. r4 r8
+		R1. %35
+		g4. r4 r8 d'4. r4 r8
+		R1.
+		d4. r4 r8 r1*3/4
+		d4. r4 r8 r1*3/4
+		r4 r8 d4. d r4 r8 %40
+		R1.
+		r1*3/4 g,4. r4 r8
+		R1.*2
+		c2. g %45
+		e4. r4 r8 r1*3/4
+		R1.*4 %50
+		r1*3/4 g4. r4 r8
+		r1*3/4 g4. r4 r8
+		R1.
+		c,4 c8 e4 g8 c,4. r4 r8
+		c4. r4 r8 c4. r4 r8 %55
+		c4. c c c
+		c1.\fermata \bar "|." %57 FINIS
+	}
+}

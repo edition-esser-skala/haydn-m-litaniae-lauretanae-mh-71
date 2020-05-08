@@ -626,13 +626,103 @@ ReginaTenoreLyrics = \lyricmode {
 	bis. %124 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \phrygian \time 4/4 \autoBeamOff \tempoAgnusDei
+		\mvTr e4\fE^\tuttiE h a g8 e'
+		e e16 e e8 e e dis r4
+		dis dis c c
+		h8 h a h16([ c)] h4. h8
+		h4 r r2 %5
+		R1*5 %10
+		h4 h d d8 d
+		d d r h e,4 e'8 e
+		e h c([ a)] h4 r
+		f'2 h,4 h8 h
+		c4 a8 f e4. e8 %15
+		e4 r r2
+		R1*5 %21
+		c'4 c d e
+		r r8 e d4 c
+		r r8 c c4. c8
+		h4 h8 d e4 d %25
+		d d r2
+		R1*2 \noBreak
+		R1\fermataMarkup \bar "||"
+		\key c \major \time 12/8 \newSpacingSection \tempoMiserere
+			R1.*2 %31
+		g,4 a8 h[( a g] d'4 e8) fis([ e d)]
+		g([ fis)] e d4 c8 h([ g a] h4.)\trill
+		c r4 r8 f4. d
+		e h c8[ h c] a[ d c] %35
+		h4 a8 g4. r4 r8 d'4 d8
+		d2. d4. r4 r8
+		fis,4 g8 a([ g fis] g4 a8) h([ a g)]
+		a4 h8 c[ h a] h4.~ h8[ a] g
+		a2. h4. r4 r8 %40
+		R1.*2
+		r1*3/4 g4 a8 h([ a g]
+		d'4 e8) fis([ e d)] d4. h
+		\once \tieDashed c4.~ c8[ d e] d4. r4 r8 %45
+		c4 d8 e([ d c)] f4. r4 r8
+		h,4( c8 d[ c h)] e4. r4 r8
+		a,4 h8 c([ h a)] d4. r4 r8
+		g,4 a8 h([ a g] c4) d8 d4( c8)
+		h4. h4\p h8 c4 d8 d4( c8) %50
+		h4. r4 r8 h4\f c8 d[ c h]
+		c4 d8 e[ d c] d4 e8 f[ e d]
+		\once \tieDashed e4.~ e8[ d] c d2.
+		e4. r4 r8 e,4 f8 g[ f e]
+		f4 g8 a[ g f] g4 a8 b[( a g]) %55
+		a1.
+		g\fermata \bar "|." %57 FINIS
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis pec -- ca -- ta mun -- di:
+	Par -- ce no -- bis,
+	par -- ce no -- bis, Do -- mi --
+	ne. %5
+
+	A -- gnus De -- i, qui %11
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta mun -- di:
+	Ex -- au -- di, ex --
+	au -- di nos, Do -- mi -- %15
+	ne.
+
+	A -- gnus De -- i, %22
+	qui tol -- lis
+	pec -- ca -- ta
+	mun -- di, pec -- ca -- ta %25
+	mun -- di:
+
+	Mi -- se -- re -- re, __ %32
+	mi -- se -- re -- re no --
+	bis, mi -- se --
+	re -- re no -- _ %35
+	_ _ bis, mi -- se --
+	re -- re,
+	mi -- se -- re -- re, __
+	mi -- se -- re -- _ re
+	no -- bis. %40
+
+	Mi -- se -- re -- %43
+	re __ no -- _
+	_ bis, %45
+	mi -- se -- re -- re
+	no -- bis,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re no --
+	bis, mi -- se -- re -- re no -- %50
+	bis, mi -- se -- re --
+	_ _ _ _ _ _
+	_ re no --
+	bis, mi -- se -- re --
+	_ _ _ _ _ re __ %55
+	no --
+	bis. %57 FINIS
+}
