@@ -107,11 +107,11 @@
 \newif\ifprintreport\printreportfalse
 \directlua{
 scores = {
-  ottoni = "Tromba I, II\string\\newline Timpani",
+  ottoni = "Tromba I, II in C\string\\newline Timpani in C–G",
   vl1 = "Violino I",
   vl2 = "Violino II",
   coro = "Coro",
-  org = "Organo",
+  org = "Organo solo",
   b = "Bassi",
   full_score = "Full Score"
 }
@@ -176,7 +176,7 @@ In general, this edition closely follows the manuscript. Any changes that were i
 
 \bigskip
 
-\footnotetext[1]{Abbreviations: A, alto; b, basses; B, basso; Ms, manuscript; org, organ; r, rest; S, soprano; T, tenore; timp, timpani; tr, trumpet; vl, violin.}
+\footnotetext[1]{Abbreviations: A, alto; b, cellos and basses; B, basso; Ms, manuscript; org, organ; r, rest; S, soprano; T, tenore; timp,~timpani; tr, trumpet; vl, violin.}
 
 \begin{longtable}{lll L{10cm}}
 	\toprule
@@ -202,10 +202,10 @@ This edition has been compiled and checked with utmost diligence. Nevertheless, 
 \textit{Salzburg, May 2020\\
 Wolfgang Esser-Skala}
 
+\cleardoublepage
+\chapter*{Contents.}
 
-\chapter*{Lyrics.}
-
-
+\input{../out/lilypond.toc}
 
 \cleardoublepage
 \fi
@@ -213,18 +213,5 @@ Wolfgang Esser-Skala}
 \iftemplate
 \includepdf[pages=-]{../out/\lypdfname.pdf}
 \fi
-
-%Kyrie eleison, Christe eleison, Kyrie eleison.
-%Christe audi nos, Christe exaudi nos.
-%Pater de coelis, Deus, miserere nobis.
-%Fili, Redemptor mundi, Deus, miserere nobis.
-%Spiritus Sancte, Deus, miserere nobis.
-%Sancta Trinitas, unus Deus, miserere nobis.
-%Sancta Maria, Sancta Dei Genitrix, Sancta Virgo virginum, ora pro nobis.
-%Mater Christi, Mater divinae gratiae, ora pro nobis.
-%Mater purissima, Mater castissima, ora pro nobis.
-%Mater inviolata, Mater intemerata, Mater amabilis, Mater admirabilis, ora pro nobis.
-%Mater Creatoris, ora pro nobis.
-%Mater Salvatoris, ora pro nobis.
 
 \end{document}
