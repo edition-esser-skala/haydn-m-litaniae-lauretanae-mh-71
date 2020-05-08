@@ -431,6 +431,201 @@ SanctaMariaTenoreLyrics = \lyricmode {
 	bis. %103 finis
 }
 
+ReginaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/4 \autoBeamOff \tempoRegina
+		R2.*20 %20
+		r4 r \mvTr d\fE^\tuttiE
+		c e e
+		d2 c4
+		f( e) d
+		c h h %25
+		d2 c4
+		f e d
+		c h r
+		h c e
+		c d2 %30
+		h4 c2
+		a4 h2
+		c4 c( h)
+		c r r
+		R2. %35
+		r4 r d
+		c h r
+		R2.
+		r4 r d
+		c h r %40
+		h2 h4
+		c h h
+		h h8 h h h
+		c4 h g(
+		e') e e %45
+		d d r
+		d2 d4
+		h2 h4
+		g2 g4
+		e' d2 %50
+		d4 h h
+		a2 g4
+		e' d2
+		h4 r r
+		R2.*12 %66
+		r4 r d
+		d d d
+		d2 d4
+		c h a %70
+		g8. g16 fis4 r
+		d'2 d4
+		c h a
+		g fis r
+		h h h %75
+		d( e) f!
+		e e8 e e4
+		e e2
+		e4 r r
+		R2. %80
+		r4 h4.\trill a16[ h]
+		c8[ h d c h a]
+		gis4 r r
+		c2 h4
+		a e' d8[ c] %85
+		h2 a4
+		f' e2
+		e4 r r
+		R2.*3 %91
+		a,4 a e'
+		e8. e16 d4 r
+		g, g d'
+		d8. d16 c4 r %95
+		g' f e
+		e d r
+		r r d
+		c e e
+		d2 c4 %100
+		f e d
+		c8. c16 h4 h
+		d2 c4
+		f e d8 d
+		c4 h8 h r4 %105
+		r h4.\trill a16[ h]
+		c8[ h d c h a]
+		g4 d'4.\trill c16[ d]
+		e8[ d f e d c]
+		h4 c d %110
+		c2 c4
+		a h c
+		h2 h4
+		g a h
+		a2 a4 %115
+		f g a
+		g2 g4
+		r g g'
+		e2 e4
+		c2 c4 %120
+		d c( h)
+		c r8 c d4
+		c c( h)
+		c r r
+		R2.*15 %139
+		R2.\fermataMarkup \bar "||" %140
+	}
+}
+
+ReginaTenoreLyrics = \lyricmode {
+	Re -- %21
+	gi -- na, re --
+	gi -- na
+	An -- ge --
+	lo -- rum, re -- %25
+	gi -- na
+	Pa -- tri -- ar --
+	cha -- rum,
+	o -- ra pro
+	no -- _ %30
+	_ _
+	_ bis,
+	pro no --
+	bis.
+	%35
+	Re --
+	gi -- na,
+
+	re --
+	gi -- na %40
+	Pro -- phe --
+	ta -- rum, re --
+	gi -- na A -- po -- sto --
+	lo -- rum, o --
+	ra pro %45
+	no -- bis,
+	o -- ra,
+	o -- ra,
+	o -- ra
+	pro no -- %50
+	bis, o -- ra,
+	o -- ra
+	pro no --
+	bis.
+
+	Re -- %67
+	gi -- na, re --
+	gi -- na,
+	re -- gi -- na %70
+	Mar -- ty -- rum,
+	o -- ra,
+	o -- ra pro
+	no -- bis,
+	re -- gi -- na %75
+	Con -- fes --
+	so -- rum, o -- ra
+	pro no --
+	bis,
+
+	o -- _ %81
+	_
+	ra,
+	o -- ra,
+	o -- _ _ %85
+	_ ra
+	pro no --
+	bis.
+
+	Re -- gi -- na %92
+	Vir -- gi -- num,
+	re -- gi -- na
+	Vir -- gi -- num, %95
+	o -- ra pro
+	no -- bis,
+	re --
+	gi -- na, re --
+	gi -- na %100
+	San -- cto -- rum
+	o -- mni -- um, re --
+	gi -- na
+	Pa -- tro -- na Hun --
+	ga -- ri -- ae, %105
+	o -- _
+	_
+	ra, o -- _
+	_
+	ra, o -- ra %110
+	o -- ra,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, %115
+	o -- ra pro
+	no -- bis,
+	o -- ra,
+	o -- ra,
+	o -- ra %120
+	pro no --
+	bis, o -- ra
+	pro no --
+	bis. %124 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

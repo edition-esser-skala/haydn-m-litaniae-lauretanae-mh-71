@@ -416,8 +416,201 @@ SanctaMariaBassoLyrics = \lyricmode {
 	no --
 	bis, o -- ra pro no --
 	bis, pro no --
-	
+
 	bis. %103 finis
+}
+
+ReginaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \autoBeamOff \tempoRegina
+		R2.*20 %20
+		r4 r \mvTr h'\fE^\tuttiE
+		c c, c
+		h( h') c
+		f,( g) g
+		c g g %25
+		h,( h') c
+		f, g g
+		c g r
+		g e c
+		f d h %30
+		e c a
+		d h g
+		c g'2
+		c,4 r r
+		R2. %35
+		r4 r g'
+		c g r
+		R2.
+		r4 r g
+		c g r %40
+		g2 g4
+		g g g
+		g g8 g g g
+		g4 g g(
+		c,) c cis %45
+		d d r
+		g2 d4
+		e2 h4
+		c2 g4
+		c d2 %50
+		g,4 g' g
+		d2 e4
+		c d2
+		g,4 r r
+		R2.*12 %66
+		r4 r fis'
+		g g, g'
+		fis2 g4
+		c, d d %70
+		g8. g16 d4 r
+		fis2 g4
+		c, d d
+		g d r
+		h h' a %75
+		gis2 gis4
+		a c,8 e a4
+		gis a2
+		e4 r r
+		R2. %80
+		r4 gis4.\trill fis16[ gis]
+		a8[ gis h a gis fis]
+		e4 r r
+		a,2 h4
+		c2 d4 %85
+		e2 f4
+		d e2
+		a,4 r r
+		R2.*3 %91
+		a'4 a gis
+		g8. g16 fis4 r
+		g g fis
+		f8. f16 e4 r %95
+		c f c
+		g' g, r
+		r r h'
+		c c, c
+		h( h') c %100
+		f, g g
+		c8. c16 g4 g
+		h,( h') c
+		f, g g8 g
+		c4 g8 g r4 %105
+		R2.*2
+		r4 g g
+		g2.
+		g4 g( f %110
+		e2) f4
+		f f e
+		d2 e4
+		e2( d4
+		c2) d4 %115
+		d d c
+		h2 c4
+		c'2 g4
+		a2 e4
+		f2 c4 %120
+		f g2
+		c,4 r8 c' h4
+		c g2
+		c,4 r r
+		R2.*15 %139
+		R2.\fermataMarkup \bar "||" %140 finis
+	}
+}
+
+ReginaBassoLyrics = \lyricmode {
+	Re -- %21
+	gi -- na, re --
+	gi -- na
+	An -- ge --
+	lo -- rum, re -- %25
+	gi -- na
+	Pa -- tri -- ar --
+	cha -- rum,
+	o -- ra pro
+	no -- _ _ %30
+	_ _ _
+	_ _ _bis,
+	pro no --
+	bis.
+	%35
+	Re --
+	gi -- na,
+
+	re --
+	gi -- na %40
+	Pro -- phe --
+	ta -- rum, re --
+	gi -- na A -- po -- sto --
+	lo -- rum, o --
+	ra pro %45
+	no -- bis,
+	o -- ra,
+	o -- ra,
+	o -- ra
+	pro no -- %50
+	bis, o -- ra,
+	o -- ra
+	pro no --
+	bis.
+
+	Re -- %67
+	gi -- na, re --
+	gi -- na,
+	re -- gi -- na %70
+	Mar -- ty -- rum, o --
+	ra,
+	o -- ra pro
+	no -- bis,
+	re -- gi -- na %75
+	Con -- fes --
+	so -- rum, o -- ra
+	pro no --
+	bis,
+	%80
+	o -- _
+	_
+	ra,
+	o -- ra,
+	o -- ra, %85
+	o -- ra
+	pro no --
+	bis.
+
+	Re -- gi -- na %92
+	Vir -- gi -- num,
+	re -- gi -- na
+	Vir -- gi -- num, %95
+	o -- ra pro
+	no -- bis,
+	re --
+	gi -- na, re --
+	gi -- na %100
+	San -- cto -- rum
+	o -- mni -- um, re --
+	gi -- na
+	Pa -- tro -- na Hun --
+	ga -- ri -- ae, %105
+
+	o -- ra, %108
+	o --
+	ra, o -- %110
+	ra,
+	o -- ra pro
+	no -- bis,
+	o --
+	ra, %115
+	o -- ra pro
+	no -- bis,
+	o -- ra,
+	o -- ra,
+	o -- ra %120
+	pro no --
+	bis, o -- ra
+	pro no --
+	bis. %124 finis
 }
 
 % BassoNotes = {

@@ -278,3 +278,150 @@ SanctaMariaViolinoII = {
 		f\fermata \bar "||" %103 finis
 	}
 }
+
+ReginaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoRegina
+		e2\p r4
+		R2.
+		f4 e d
+		e8 c' h4 r
+		R2. %5
+		f4 e d
+		e r r
+		r8 e( f4) r
+		r8 fis( g4) r
+		r8 gis( a4) r8 g %10
+		r e( f4) r8 e
+		r cis( d4) r8 c
+		r a( h4) r8 a
+		g4 r r
+		R2. %15
+		g4 r r
+		R2.
+		g4 r r
+		r c'2
+		a8 d c4 h %20
+		<c e,>2 g'4\f
+		e c r
+		h,16 c d e f g a h c4
+		f, g g,
+		c' g r %25
+		h,16 c d e f g a h c4
+		f, g g,
+		c' g r
+		g g g
+		g f8 e f4~ %30
+		f e8 d e4~
+		e d8 c d4
+		e8 f g2
+		e4 r r
+		R2. %35
+		f4\p e d\f
+		e g r
+		R2.
+		f4\p e d\f
+		e g r %40
+		h, h h
+		c h h
+		h h8 h h h
+		c4 h h'~
+		h a g %45
+		g fis r
+		g16 a h c d e fis g fis4
+		e,16 fis g a h c d e d4
+		c,16 d e fis g a h c h4
+		a g fis %50
+		g g g
+		fis2 g4
+		g g fis
+		g r r
+		d16\p e fis g a h c d g,4 %55
+		c, h a
+		h8 g' fis4 r
+		d16 e fis g a h c d g,4
+		c, d d
+		g,8 h' h( cis) cis( d) %60
+		d,4 r r
+		R2.
+		d4 r r
+		R2.
+		fis4 r a %65
+		g g fis
+		h,8\f d g h d4
+		h g d
+		c'8 a,16 h c d e fis g4
+		c, h a %70
+		h8 g' fis4 g16 fis e d
+		c'8 a,16 h c d e fis g4
+		c, h a
+		h8 g' fis4 r
+		gis gis a %75
+		h2 h4
+		h a8 gis a4
+		h h a
+		gis gis4.\trill-\critnote fis16 gis
+		a8 gis h a gis fis %80
+		e4 e e
+		e2.
+		e4 gis, a8 d
+		c4 a' gis
+		a c h8 a %85
+		gis2 a4
+		a a gis
+		a r r
+		r8 c,(\p d4) r8 e
+		gis4 h2 %90
+		a4 a gis
+		a c\f h
+		a8. a16 a d, e fis g a h c!
+		h4 h a
+		f8. f16 g c, d e f g a h %95
+		c4 r r
+		r d,16 e f g a h c d
+		c8 g c e g4
+		e c g
+		h,16 c d e f g a h c4 %100
+		a g g
+		g8. g16 g4 g
+		h,16 c d e f g a h c4
+		a g g
+		g g r %105
+		r h,4.\trill a16 h
+		c8 h d c h a
+		g4 d'4.\trill c16 d
+		e8 d f e d c
+		h4 r r %110
+		h'2 a4
+		a a a
+		a2 g4
+		g2.~
+		g2 f4 %115
+		f f f
+		f2 e4
+		c16 d e f g a h c h4
+		a16 h c d e f g a g4
+		f,16 g a h c d e f e4 %120
+		d c h
+		c r8 c d4
+		c c h
+		c r r
+		r8 e,(\pE f4) r %125
+		r8 fis( g4) r
+		r8 gis( a4) r8 g
+		r e( f4) r8 e
+		r cis( d4) r8 c
+		r a( h4) r8 a %130
+		g4 r r
+		R2.
+		g4 r r
+		R2.
+		g4 r r %135
+		r c'2
+		a8 d c4 h
+		c8. g'16\f g2\trill
+		a16 f e d e8 c g, h'
+		c,4 r r\fermata \bar "||" %140 finis
+	}
+}

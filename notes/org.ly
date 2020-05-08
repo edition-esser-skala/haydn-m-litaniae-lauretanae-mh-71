@@ -750,6 +750,528 @@ SanctaMariaBassFigures = \figuremode {
 	r %103 finis
 }
 
+ReginaOrganoR = {
+	\clef treble
+	\key c \major \time 3/4 \tempoRegina
+	<< \relative c' {
+		c'2 \oneVoice c16 h a g
+		\voiceOne f'2 e4
+		\oneVoice a,8.\trill d16 c4 h
+		c8.(\trill h32 c) d4 c16 h a g
+		\voiceOne f'2 e4 %5
+		\oneVoice a,8. d16 c4 h
+		c g'4. f16 g
+		\voiceOne a8 cis, d16 f e d a'4\trill
+		h8 dis, e16 g fis e h'4\trill
+		c8 e, f c' h16 g f e %10
+		a8 cis, d a' g16 e d c
+		f8 a, h f' e16 c h a
+		d8 fis, g d' c16 a g fis
+		g2.~
+		g~ %15
+		g~
+		\once \tieDashed g~
+		g8. a16 \oneVoice h c d e f g a h
+		c8. g16 g2\trill
+		a16 f e d \appoggiatura { c16[ d e] } d2\trill %20
+		\voiceOne c4 \oneVoice r r
+		R2.*12 %33
+		r4 r c16 h a g
+		\voiceOne f'2 e4 %35
+		\oneVoice a,8. d16 c4 h
+		c8.(\trill h32 c) d4 c16 h a g
+		\voiceOne f'2 e4
+		\oneVoice a,8.\trill d16 c4 h
+		c8.(\trill h32 c) d4 r %40
+		R2.*13 %53
+		r4 r g,16 fis e d
+		\voiceOne c'2 h4 %55
+		\oneVoice e,8.\trill a16 g4 fis
+		g8.(\trill fis32 g) a4 g'16 fis e d
+		\voiceOne c'2 h4
+		\oneVoice e,8. a16 g4 fis
+		g8 h, h cis cis d %60
+		\voiceOne \tieDashed d2.~
+		d~
+		d~
+		d~
+		d16 e d e \oneVoice \tieSolid fis g fis g a8 c, %65
+		\appoggiatura c16 h8 a16 g a2\trill
+		\voiceOne g4 \oneVoice r r
+		R2.*20 %87
+		r4 e'4. d16 e
+		f8 a, h f' e16 c h a
+		d h c d e fis gis a h8 d, %90
+		\appoggiatura d16 c8 h16 a h2\trill
+		a4 r r
+		R2.*31 %123
+		r4 g'4.\trill f16 g
+		\voiceOne a8 cis, d16 f e d a'4\trill %125
+		h8 dis, e16 g fis e h'4\trill
+		c8 e, f c' h16 g f e
+		a8 cis, d a' g16 e d c
+		f8 a, h f' e16 c h a
+		d8 fis, g d' c16 a g fis %130
+		g2.~
+		g~
+		g~
+		\once \tieDashed g~
+		g8. a16 \oneVoice h c d e f g a h %135
+		c8. g16 g2\trill
+		a16 f e d d2\trill
+		\voiceOne c4 \oneVoice r r
+		R2.
+		R\fermataMarkup \bar "||" %140 finis
+	} \\ \relative c' {
+		<e g>2 s4
+		d'2 c4
+		s2.
+		s
+		d2 c4 %5
+		s2.
+		s
+		r8 e, f4 r
+		r8 fis g4 r
+		r8 gis s2 %10
+		s2.
+		s
+		s
+		r4 d4. c16 d
+		\bp #-5 #-5 e8 d f e d c %15
+		h4 d4. c16 d
+		\bp #-5 #-5 e8 d f e d c
+		s2.
+		s
+		s %20
+		<e g>4 s2
+		s2.*12 %33
+		s2.
+		d'2 c4 %35
+		s2.
+		s
+		d2 c4
+		s2.
+		s %40
+		s2.*13 %53
+		s2.
+		a2 g4 %55
+		s2.
+		s
+		a'2 g4
+		s2.
+		s %60
+		r4 a,4. g16 a
+		h8 a c h a g
+		fis4 a4. g16 a
+		h8 a c h a g
+		fis4-\critnote s2 %65
+		s2.
+		<d h>4 s2
+		s2.*20 %87
+		s2.*5 %92
+		s2.*31 %123
+		s2.
+		r8 e f4 r %125
+		r8 fis g4 r
+		s2.
+		s
+		s
+		s %130
+		r4 d4. c16 d
+		\bp #-5 #-5 e8 d f e d c
+		h4 d4. c16 d
+		\bp #-5 #-5 e8 d f e d c
+		s2. %135
+		s
+		s
+		<e g>4 s2
+		s2.*2 %140 finis
+	} >>
+}
+
+ReginaOrganoL = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoRegina
+		c'4-\solo c, r
+		r h' c
+		<< { f e d } \\ { f, g g } >>
+		c g r
+		r h c %5
+		<< { f e d } \\ { f, g g } >>
+		<< { c } \\ { c, } >> r e
+		f r r8 fis
+		g4 r r8 gis?
+		a4 \rh a'8 \lh a, \rh g' \lh g, %10
+		f \rh e' f \lh f, \rh e' \lh e,
+		\kneeBeam d \rh cis' d \lh d, c c'
+		h, a' h h, a a'
+		<< { r4 h4.\trill a16 h } \\ { g,4 r r } >>
+		<< { \bp #5 #5 c'8 h d c h a } \\ { R2. } >> %15
+		<< { g4 h4.\trill a16 h } \\ { g,4 r r } >>
+		<< { \bp #5 #5 c'8 h d c h a } \\ { R2. } >>
+		<< { h4\trill } \\ { g } >> r f
+		e r e
+		f g g, %20
+		c c'-\tutti h
+		c c, r
+		h16 c d e f g a h c4
+		f, g g,
+		c' g r %25
+		h,16 c d e f g a h c4
+		f, g g,
+		c' g r
+		g e c
+		f d h %30
+		e c a
+		d h g
+		c8 c' g4 g,
+		c c' r
+		r h-\solo c %35
+		<< { f e d } \\ { f, g g } >>
+		c g r
+		r h c
+		<< { f e d } \\ { f, g g } >>
+		c g r %40
+		g-\tuttiE g g
+		g g8 g, g' g,
+		g'4 g g
+		g g,16 a h c d e fis g
+		c,4 c cis %45
+		d r8 d fis d
+		g,4 g' d
+		r e h
+		r c g
+		c d d, %50
+		g r g'
+		d16 e fis g a h c d e4
+		c d d,
+		g g, r
+		r fis'-\solo g %55
+		<< { c h a } \\ { c, d d } >>
+		g d r
+		\clef treble r fis' g
+		<< { c h a } \\ { c, d d } >>
+		g8 \clef bass h, h cis cis d %60
+		d,4 \clef treble fis'4.\trill e16 fis
+		g8 fis a g fis e
+		\clef bass << { d4 } \\ { d, } >> \clef treble fis'4.\trill e16 fis
+		g8 fis a g fis e
+		\clef bass d4 r fis, %65
+		g c, d
+		g, g'-\tutti fis
+		g g, r
+		fis16 g a h c d e fis g4
+		c, d d %70
+		g d r
+		fis,16 g a h c d e fis g4
+		c, d d
+		g d c
+		h h' a %75
+		gis r gis
+		a, c8 e a4
+		gis a a,
+		e' r r
+		R2. %80
+		r4 gis4.\trill fis16 gis
+		a8 gis h a gis fis
+		e f e d c h
+		a16 h c d e fis gis a h4
+		c,16 d e fis gis a h c d4 %85
+		e,16 fis gis a h c d e f4
+		d e e,
+		a r c,-\soloE
+		d8 c' d d, c c'
+		h4 gis e %90
+		a d, e
+		a, a'-\tutti gis
+		g fis r
+		g, g' fis
+		f e r %95
+		c f c
+		g' r g
+		c, c' h
+		c c, r
+		h16 c d e f g a h c4 %100
+		f, g g,
+		c' g^\critnote r
+		h,16 c d e f g a h c4
+		f, g g,
+		c' g r %105
+		g, \clef "treble_8" h'4.\trill a16 h
+		c8 h d c h a
+		g4 \clef bass g-!-\tasto g-!
+		g2.
+		g4 g f %110
+		e16 f g a h c d e f4
+		r f, e
+		d16 e f g a h c d e4
+		r e, d
+		c16 d e f g a h c d4 %115
+		r d, c
+		h16 c d e f g a h c4
+		r c g
+		r a e
+		r f c %120
+		f g g,
+		c16 d e f g a h c h4
+		c g g,
+		c r e-\solo
+		f r r8 fis %125
+		g4 r r8 gis
+		a \rh gis' a \lh a, g \rh g'
+		\lh f, \rh e' f \lh f, e \rh e'
+		\kneeBeam \lh d, \rh cis' d \lh d, c c'
+		h, a' h h, a a' %130
+		<< { r4 h4.\trill a16 h } \\ { g,4 r r } >>
+		<< { \bp #5 #5 c'8 h d c h a } \\ { R2. } >>
+		<< { g4 h4.\trill a16 h } \\ { g,4-\critnote r r } >>
+		<< { \bp #5 #5 c'8 h d c h a } \\ { R2. } >>
+		<< { h4\trill } \\ { g } >> r f %135
+		e r e
+		f g g,
+		c r e-\tutti
+		f g g,
+		c r r\fermata \bar "||" %140 finis
+	}
+}
+
+ReginaBassFigures = \figuremode {
+	r2.*20 %20
+	r2 <6>4
+	r2.
+	<6 5>2 <3>4
+	<6> <6 4> <5 3>
+	r2. %25
+	<6 5>
+	<6>4 <6 4> <5 3>
+	r2.
+	r4 <[6]>2
+	<9>4 <5> <[7]> %30
+	<9> <[5]> <[7]>
+	<9> <[5]> <[7]>
+	r <5 4>4 <\t 3>
+	r2.*7 %40
+	r2.
+	<6 4>4 <5 3>2
+	r2.
+	<6 4>4 <5 3>2
+	<9 7>4 <8 6> <7 5> %45
+	<6 4> <5 _+>2
+	r2 <_+>4
+	r2 <5+>4
+	r2.
+	<[6]>4 <6 4> <5 _+> %50
+	r2.
+	<[7 _+]>2 <5>4
+	<6 5> <4> <_+>
+	r2.*13 %66
+	r2 <6>4
+	r2.
+	<6 5>2 <3>4
+	<6> <6 4> <5 _+> %70
+	r <_+>2
+	<6 5>2.
+	<6>4 <6 4> <5 _+>
+	r <_+> <\t>
+	<6\\>2 <[4 2]>4 %75
+	<7>2 <\t>4
+	<9 4> <6>8 <_+>4.
+	<6 5>4 <9 4> <8 3>
+	<_+>2.
+	r %80
+	r4 <6>2
+	<3>8 q q2
+	<_+>2 <[6]>8 <[6\\]>
+	r2 <6\\ 4>4
+	<6>2 <[8 6]>8 <[7 5]> %85
+	<9 [_+]>4 <6\\ 4> <5>
+	<6 5> <4> <_+>
+	r2.*4 %91
+	r2 <[6]>4
+	<4\+ 2> <6>2
+	r2 <[6]>4
+	<4 2> <6>2 %95
+	r4 <6>2
+	<6 4>4 <5 3>2
+	r2 <[6]>4
+	r2.
+	<6 5> %100
+	<6>4 <6 4> <5 3>
+	r2.
+	<6 5>
+	<[6 5]>4 <[6 4]> <[5 3]>
+	r2. %105
+	r4 <10>4. <\t>8
+	<10>8 q r2
+	r2.
+	r
+	r4 <6 4> <6> %110
+	<6 5>2 <5>4
+	r <6 [4 3]> <6 4>
+	<6 5>2 <[5]>4
+	r <6 [4 3]> <6 4>
+	<6 5>2 <[5]>4 %115
+	r <6 [4 3]> <6 4>
+	<6 5>2.
+	r
+	r
+	r %120
+	<6>4 <6 4> <5 3>
+	r2 <5>4
+	r <5 4> <\t 3>
+	r2.*14 %137
+	r2 <[6]>4
+	<[6 5]> <[6 4]> <[5 3]>
+	r2. %140 finis
+}
+
+ReginaViolone = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoRegina
+		c'4\pE c, r
+		r h' c
+		f, g g
+		c g r
+		r h c %5
+		f, g g
+		c, r e
+		f r r8 fis
+		g4 r r8 gis?
+		a4 r r8 g %10
+		f4 r r8 e
+		d4 r r8 c
+		h a' h h, a a'
+		g4 r r
+		R2. %15
+		g4 r r
+		R2.
+		g4 r f
+		e r e
+		f g g, %20
+		c c'\f h
+		c c, r
+		h16 c d e f g a h c4
+		f, g g,
+		c' g r %25
+		h,16 c d e f g a h c4
+		f, g g,
+		c' g r
+		g e c
+		f d h %30
+		e c a
+		d h g
+		c8 c' g4 g,
+		c c' r
+		r h\p c %35
+		f, g g\fE
+		c g r
+		r h\pE c
+		f, g g\f
+		c g r %40
+		g g g
+		g g8 g, g' g,
+		g'4 g g
+		g g,16 a h c d e fis g
+		c,4 c cis %45
+		d r8 d fis d
+		g,4 g' d
+		r e h
+		r c g
+		c d d, %50
+		g r g'
+		d16 e fis g a h c d e4
+		c d d,
+		g g, r
+		r fis'\p g %55
+		c, d d
+		g d r
+		R2.*2
+		r8 h' h cis cis d %60
+		d,4 r r
+		R2.
+		d4 r r
+		R2.
+		d'4 r fis, %65
+		g c, d
+		g, g'\f fis
+		g g, r
+		fis16 g a h c d e fis g4
+		c, d d %70
+		g d r
+		fis,16 g a h c d e fis g4
+		c, d d
+		g d c
+		h h' a %75
+		gis r gis
+		a, c8 e a4
+		gis a a,
+		e' r r
+		R2. %80
+		r4 gis4.\trill fis16 gis
+		a8 gis h a gis fis
+		e f e d c h
+		a16 h c d e fis gis a h4
+		c,16 d e fis gis a h c d4 %85
+		e,16 fis gis a h c d e f4
+		d e e,
+		a r c,\p
+		d r8 d c c'
+		h4 gis e %90
+		a d, e
+		a, a'\f gis
+		g fis r
+		g, g' fis
+		f e r %95
+		c f c
+		g' r g
+		c, c' h
+		c c, r
+		h16 c d e f g a h c4 %100
+		f, g g,
+		c' g^\critnote r
+		h,16 c d e f g a h c4
+		f, g g,
+		c' g r %105
+		g, \clef "treble_8" h'4.\trill a16 h
+		c8 h d c h a
+		g4 \clef bass g-! g-!
+		g2.
+		g4 g f %110
+		e16 f g a h c d e f4
+		r f, e
+		d16 e f g a h c d e4
+		r e, d
+		c16 d e f g a h c d4 %115
+		r d, c
+		h16 c d e f g a h c4
+		r c g
+		r a e
+		r f c %120
+		f g g,
+		c16 d e f g a h c h4
+		c g g,
+		c r e\p
+		f r r8 fis %125
+		g4 r r8 gis
+		a4 r r8 g
+		f4 r r8 e
+		d4 r r8 c
+		h a' h h, a a' %130
+		g,4 r r
+		R2.
+		g4 r r
+		R2.
+		g'4 r f %135
+		e r e
+		f g g,
+		c r e\f
+		f g g,
+		c r r\fermata \bar "||" %140 finis
+	}
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

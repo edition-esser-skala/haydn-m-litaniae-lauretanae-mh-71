@@ -77,3 +77,106 @@ KyrieTrombaII = {
 		e r r\fermata \bar "||" %158 finis
 	}
 }
+
+ReginaTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoRegina
+		e2\pE r4
+		R2.*2
+		c'4 d r
+		R2. %5
+		d4 c g
+		e r r
+		R2.*6 %13
+		g,4 r r
+		R2. %15
+		g4 r r
+		R2.
+		g4 r r
+		R2.*2 %20
+		c'4 c\fE d
+		c c r
+		g2 c4
+		d c d
+		e d r %25
+		g,2 c4
+		d c d
+		e d r
+		R2.*3 %31
+		r4 r d
+		c g g8 g
+		e4 r r
+		R2. %35
+		r4 r d'
+		c d r
+		R2.
+		r4 r d
+		c d r %40
+		g, r r
+		g g8 g g g
+		g4 r r
+		g g8 g g g
+		e4 r r %45
+		d' d8 d d d
+		g,4 r r
+		g r r
+		g r r
+		R2. %50
+		r4 d' d
+		d r r
+		r d d8. d16
+		d4 r r
+		R2.*6 %60
+		d4\pE r r
+		R2.
+		d4 r r
+		R2.
+		d4 r r %65
+		R2.*2
+		g,2\fE r4
+		R2.*3 %71
+		d'2 r4
+		R2.*8 %80
+		r4 e, e8 e
+		e4 r e8 e
+		e4 r r
+		R2.*3 %86
+		r4 e e8 e
+		c4 r r
+		R2.*3 %91
+		c4\pE r r
+		R2.*5 %97
+		c'2\fE d4
+		c2 r4
+		g2 c4 %100
+		d c d
+		e d r
+		g,2 c4
+		R2.
+		r4 g g %105
+		g2 g4
+		g2.~
+		g~
+		g~
+		g2 r4 %110
+		R2.*7 %117
+		c,4 r r
+		c r r
+		c r r %120
+		R2.
+		e'2 f4
+		e d4. d8
+		c4 r r
+		R2.*6 %130
+		g,4\pE r r
+		R2.
+		g4 r r
+		R2.
+		g4 r r %135
+		R2.*2
+		e''2.\fE
+		d4 c g
+		e r r\fermata \bar "||" %140 finis
+	}
+}

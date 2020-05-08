@@ -279,6 +279,153 @@ SanctaMariaViolinoI = {
 	}
 }
 
+ReginaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoRegina
+		c'2\p r4
+		R2.
+		d4 c h
+		c8 e d4 r
+		R2. %5
+		d4 c h
+		c r r
+		r8 cis( d4) r
+		r8 dis( e4) r
+		r8 e( f4) r8 e %10
+		r cis( d4) r8 c
+		r a( h4) r8 a
+		r fis( g4) r8 fis
+		g,4 r r
+		R2. %15
+		g4 r r
+		R2.
+		g4 r r
+		r g''2
+		f4 e d %20
+		c2 g'4\f
+		e c r
+		h,16 c d e f g a h c4
+		f, g g,
+		c' g r %25
+		h,16 c d e f g a h c4
+		f, g g,
+		c' g r
+		g g g
+		a2. %30
+		g
+		f2 f'4
+		e d2\trill
+		c4 r r
+		R2. %35
+		d4\p c h\f
+		c d r
+		R2.
+		d4 c h\f
+		c d r %40
+		d g8( fis e d)
+		e4 d d
+		d g,8( h d g)
+		e4 d d~
+		d c h %45
+		h a r
+		h16 c d e fis g a h a4
+		g,16 a h c d e fis g fis4
+		e,16 fis g a h c d e d4
+		c h a %50
+		h d d
+		d4. c8 h4
+		a a2\trill
+		g4 r r
+		d16\p e fis g a h c d g,4 %55
+		a g fis
+		g8 h a4 r
+		d,16 e fis g a h c d g,4
+		c h a
+		h h8( cis) cis( d) %60
+		d,4 r r
+		R2.
+		d4 r r
+		R2.
+		a'4 r c %65
+		h a a
+		h,8\f d g h d4
+		h g d
+		c'8 a,16 h c d e fis g4
+		a g fis %70
+		g a g16 fis e d
+		c'8 a,16 h c d e fis g4
+		a g fis
+		g a r
+		d d d %75
+		f! e d
+		d c8 h c4
+		d d c
+		h h4.\trill a16 h
+		c8 h d c h a %80
+		gis4 h,4.\trill a16 h
+		c8 h d c h a
+		gis d' e f e gis
+		e'2.~
+		e2 f4~ %85
+		f e8 d c4
+		h h2\trill
+		a4 r r
+		r8 a(\p h4) r8 a
+		d4 d2 %90
+		c4 h h
+		a e'\f e
+		cis8. cis16 d d, e fis g a h c
+		h4 d d
+		h8. h16 c c, d e f g a h %95
+		c4 r r
+		r f,16 g a h c d e f
+		e8 g, c e g4
+		e c g
+		h,16 c d e f g a h c4 %100
+		d c h
+		c8. c16 d4 g,
+		h,16 c d e f g a h c4
+		d c h
+		c d r %105
+		r d4.\trill c16 d
+		e8 d f e d c
+		h4 h4.\trill a16 h
+		c8 h d c h a
+		g d' e4 f %110
+		g2 c,4
+		c d e
+		f2 h,4
+		h c d
+		e2 a,4 %115
+		a h c
+		d2 g,4
+		e16 f g a h c d e d4
+		c16 d e f g a h c h4
+		a,16 h c d e f g a g4 %120
+		f e d
+		e r8 e f4
+		e d2\trill
+		c4 r r
+		r8 cis(\p d4) r %125
+		r8 dis( e4) r
+		r8 e( f4) r8 e
+		r cis( d4) r8 c
+		r a( h4) r8 a
+		r fis( g4) r8 fis %130
+		g,4 r r
+		R2.
+		g4 r r
+		R2.
+		g4 r r %135
+		r g''2
+		f4 e d
+		c8. g'16\f g2\trill
+		a16 f e d e8 c g, h'
+		c,4 r r\fermata \bar "||" %140 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

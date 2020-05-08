@@ -56,3 +56,78 @@ KyrieTimpani = {
 		c r r\fermata \bar "||" %158 finis
 	}
 }
+
+ReginaTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoRegina
+		c2\pE r4
+		R2.*2
+		c4 g r
+		R2. %5
+		r4 r g
+		c r r
+		R2.*6 %13
+		g4 r r
+		R2. %15
+		g4 r r
+		R2.
+		g4 r r
+		R2.*2 %20
+		c4 c\fE g
+		c c r
+		g-\critnote r c
+		r c g
+		c g r %25
+		g r c
+		r c g
+		c g r
+		R2.*3 %31
+		r4 r g
+		c g2
+		c4 r r
+		R2. %35
+		r4 r g
+		c g r
+		R2.
+		r4 r g
+		c g r %40
+		g r r
+		g g8 g g g
+		g4 r r
+		g r r
+		c r r %45
+		R2.
+		g4 r r
+		R2.*20 %67
+		g2\fE r4
+		R2.*29 %97
+		c4\fE g2
+		c2 r4
+		r r c %100
+		r g g
+		c g r
+		g2 c4
+		R2.
+		r4 g r %105
+		g r r
+		R2.
+		r4 g g
+		g2.~\trillE
+		g2 r4 %110
+		R2.*11 %121
+		c2 g4
+		c g g
+		c r r
+		R2.*6 %130
+		g4\pE r r
+		R2.
+		g4 r r
+		R2.
+		g4 r r %135
+		R2.*2
+		c2.\fE
+		r4 g g
+		c r r\fermata \bar "||" %140 finis
+	}
+}
