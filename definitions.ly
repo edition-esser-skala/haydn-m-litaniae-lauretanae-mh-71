@@ -238,6 +238,8 @@ tempoMarkup =
 %
 
 tempoKyrie = \tempoMarkup "Allegro moderato"
+tempoSanctaMaria = \tempoMarkup "Andantino"
+	tempoSalus = \tempoMarkup "Tempo l’istesso"
 
 
 

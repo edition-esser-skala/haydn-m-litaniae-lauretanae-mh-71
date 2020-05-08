@@ -232,6 +232,207 @@ KyrieAltoLyrics = \lyricmode {
 	bis. %148 finis
 }
 
+SanctaMariaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoSanctaMaria
+		\mvTr a'4\fE^\tuttiE a g8 g g8. g16
+		f8 a4 a8 g g g4
+		f f8 g g g g4
+		g8 g f e e d r4
+		d e g8 g r4 %5
+		g4. a8 g g r4
+		h, c8 d e([ f)] g4
+		g g8 g g4 g8 a
+		g2 g4 r
+		R1 %10
+		e8. e16 d8 d c8. d16 e4
+		f g8 g g f r4
+		a8 a g g f8. g16 a4
+		g f8 f f f r4
+		b b b b8 b %15
+		b8. b16 b4 b b8 b
+		f2 f4 r8 f
+		f2 f8 b b([ a)]
+		b4 r r2
+		R1 %20
+		f8. f16 f8 f g4 g
+		g g8 g a8. a16 a4
+		a4. a8 f4 f8 a
+		f4 f8 a g4. f8
+		f e r e f g \appoggiatura g f4 %25
+		e r a a
+		g8 g g8. g16 f8 a4 a8
+		g g16 g g8. g16 f8 f4 g8
+		g g16 g g8. g16 g4 r
+		e d c8. d16 e4 %30
+		f g8 g g f r4
+		a g8 g f8.([ g16)] a4
+		g f8 f f f r4
+		g a8 a g8.([ a16)] h4
+		a g8 g g g r4 %35
+		f8 f f f f4 f
+		f f8 f f4 f8 f
+		g2 f4 r8 a
+		a4( g) g r8 c
+		h4 b a( f) %40
+		g8 g f g f4( e)\trill
+		f8 f f([ e)] f4 r \noBreak
+		R1 \bar "||"
+		\key f \dorian \tempoSalus R1*4 %47
+		f1\p
+		g
+		as2 a %50
+		b g4 e
+		f1
+		e4 r r2
+		r8 c\f c' c h4( b
+		a) as g( c8[ a)] %55
+		f4 b g f~
+		f es2 f8 f
+		es4 f es2
+		es4 r r2
+		R1*3 %62
+		as1\p
+		b4. b8 b2
+		es, es %65
+		f1
+		g4 r r2
+		R1
+		r8 as,\f as' as g4( ges
+		f) es r8 b' as as %70
+		as2 g4 as~
+		as g8[ f] e4 f~
+		f es8[ d!] c2
+		h4 c8 c c4( h)
+		c r r2 %75
+		R1*3
+		es2.\p es4
+		f2 f %80
+		g g
+		as as4 as
+		b4. b8 b2
+		as as4 as
+		as f8[ g] as4 f %85
+		g r8 e\f f f g4
+		f r8 a b b c4
+		b r8 f f4( b)
+		b r8 g as! as b4
+		as r8 f e4 f %90
+		g f f2
+		e4 f f( e)
+		f r as,2\p
+		b4 r b2
+		as4 c c( h) %95
+		c r r2
+		r8 c\f c' c h4 b
+		a as f g~
+		g8[ c,] f2 e4
+		f r r2 %100
+		r4 r8 f g4 a
+		f1
+		f\fermata \bar "||" %103 finis
+	}
+}
+
+SanctaMariaAltoLyrics = \lyricmode {
+	Vir -- go pru -- den -- tis -- si --
+	ma, vir -- go ve -- ne -- ran --
+	da,  vir -- go prae -- di -- can --
+	da, o -- ra pro no -- bis,
+	vir -- go po -- tens, %5
+	vir -- go cle -- mens,
+	vir -- go fi -- de -- lis,
+	o -- ra pro no -- bis, pro
+	no -- bis.
+	%10
+	Spe -- cu -- lum iu -- sti -- ti -- ae,
+	o -- ra pro no -- bis,
+	se -- des sa -- pi -- en -- ti -- ae,
+	o -- ra pro no -- bis,
+	cau -- sa no -- strae lae -- %15
+	ti -- ti -- ae, o -- ra pro
+	no -- bis, pro
+	no -- bis, pro no --
+	bis.
+	%20
+	Vas spi -- ri -- tu -- a -- le,
+	vas ho -- no -- ra -- bi -- le,
+	vas in -- si -- gne, in --
+	si -- gne  de -- vo -- ti --
+	o -- nis, o -- ra pro no -- %25
+	bis, ro -- sa,
+	ro -- sa my -- sti -- ca, tur -- ris
+	tur -- ris Da -- vi -- di -- ca, tur -- ris,
+	tur -- ris e -- bur -- ne -- a,
+	do -- mus au -- re -- a, %30
+	o -- ra pro no -- bis,
+	fe -- de -- ris ar -- ca,
+	o -- ra pro no -- bis,
+	ia -- nu -- a coe -- li,
+	o -- ra pro no -- bis, %35
+	stel -- la ma -- tu -- ti -- na,
+	o -- ra pro no -- bis, pro
+	no -- bis, pro
+	no -- bis, o --
+	ra pro no -- %40
+	bis, o -- ra pro no --
+	bis, pro no -- bis.
+
+	Sa -- %48
+	lus
+	in -- fir -- %50
+	mo -- _ _
+	_
+	rum,
+	o -- ra pro no --
+	bis, o -- %55
+	ra pro no -- _
+	_ bis, pro
+	no -- _ _
+	bis.
+
+	Re -- %63
+	fu -- gi -- um
+	pec -- ca -- %65
+	to --
+	rum,
+
+	o -- ra pro no --
+	bis, o -- ra pro %70
+	no -- _ _
+	_ _ _
+	_ _
+	_ bis, pro no --
+	bis. %75
+
+	Con -- so -- %79
+	la -- trix %80
+	af -- fli --
+	cto -- rum, au --
+	xi -- li -- um
+	Chri -- sti -- a --
+	no -- _ _ _ %85
+	rum, o -- ra pro no --
+	bis, o -- ra pro no --
+	bis, pro no --
+	bis, o -- ra pro no --
+	bis, o -- ra pro %90
+	no -- bis, o --
+	ra pro no --
+	bis, o --
+	ra, o --
+	ra pro no -- %95
+	bis,
+	o -- ra pro no -- _
+	_ _ _ _
+	_ _
+	bis, %100
+	o -- ra pro
+	no --
+	bis. %103 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

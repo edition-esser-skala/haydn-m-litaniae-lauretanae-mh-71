@@ -534,6 +534,222 @@ KyrieViolone = {
 	}
 }
 
+SanctaMariaOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoSanctaMaria
+		\mvTr f,8\f-\tutti f' a f g f16 g e8 d16 c
+		f,8 f' a f g f16 g e8 d16 c
+		f,8 f'16 e f8 d e d16 c h8 h'
+		c c, f fis g g, g'16 d h d
+		g,8 g' e c h c c'16 h c c, %5
+		g'8 g g fis g g g16 a h a
+		g8 g g f e d e d16 c
+		d8 d, d' c h g' c f,
+		g f g g, c'16 h c g e' d e c
+		a gis a e c' h c a f e f d g8 g, %10
+		c c h g c c' r c,
+		d d e c f16 e f c a' g a f
+		f,8 f' e c f f, r f'
+		g g, a a' b16 b, c d es f g a
+		b a b f d' c d b g fis g d b' a b g %15
+		es d es b g' f g es d c d b d' c d b
+		a c b c a g a f b d c d b a b f
+		c' es d es c b c f, d'8 b f f,
+		b b d16 c d b es d es c f es f d
+		g f g es a g a f b a b b, f'8 f, %20
+		b4 b'8 a g16 f g c, c' h c g
+		c,4 r8 c f16 e f c a' g a f
+		f,8 f' a f b16 a b b, a'8 f
+		b16 a b b, a'8 f g16 f g f e!8 f
+		c c c'16 h c c, f8 e f f, %25
+		c''16 h c c, c' b a g f8 f a f
+		g16 g f g e d e c f,8 f' a f
+		g16 g f g e d e c f e f f, f'8 d
+		e d16 c h8 h' c16 h c c, e f e d
+		c8 c h g c c' r c, %30
+		d d e c f16 e f c a' g a f
+		f,8 f' e c f f, r f'
+		g g a f b16 a b f d' c d b
+		g8 g fis d g g, r g'
+		a a h g c16 h c c, c' b a g %35
+		f e f c a' g a f d cis d a f' e f d
+		b a b f d' c d b a g a f a' g a f
+		e g f g e d e c f e f f, a'8 f
+		d16 d' c d h a h g c h c c, c' h c c,
+		c' h c c, c' h c c, c' h c c, c' h c c, %40
+		c'8 c, d b! c b c c
+		f16 e f f, c'8 c, f'16 e f c a' g a f \noBreak
+		d cis d a f' e f d b a b g c8 c \bar "||"
+		\key f \dorian \tempoSalus \mvTr f\p-\soloE r f r f\f r r4 \noBreak
+		e8\p r e r e\f r r4 %45
+		f8\p r f r f r f r
+		b4\f r8 b b as b c
+		\mvTr f,\p-\tutti r f r f\f r r4
+		e8\p r e r e\f r r4
+		f8\p r r4 f8 r r4 %50
+		b,8 r r4 c8 r r4
+		des8 r des r des r des r
+		r c\f c'-! c-! h4-! b-!
+		a-! as r8 g e c
+		f4 f, r8 c'' a f %55
+		b4 b, r8 c' a f
+		r b g es r as f d!
+		es es d d es es es es
+		\mvTr as,\p-\solo r as' r as\f r r4
+		g8\p r g r g\f r r4 %60
+		as8 r r4 es r
+		r8 es f g as c, des es
+		\mvTr as\p-\tutti r as r as\f r r4
+		g8\p r g r g\f r r4
+		ges8\p r r4 ges8 r r4 %65
+		f8 r r4 b8 r r4
+		es,8 es\f-! es'-! es-! d!4-! des-!
+		c ces r8 b g es
+		as2 as
+		r8 as, as' as g4 ges %70
+		f fes es8 es es es
+		es es es des c c c c
+		c c c b as as as as
+		g g g fis g g g g
+		\mvTr c\p-\solo r c r c'\f r r4 %75
+		h8\p r h r h\f r r4
+		c8 r r4 f,8 r r4
+		r8 g h16 a h g c8 es, f g
+		\mvTr c\p-\tutti r c r c\f r r4
+		h8\p r h r h\f r r4 %80
+		b8\p r b r b\f r r4
+		as8\p r as r as\f r r4
+		g8\p r r4 g8 r r4
+		f8 r r4 f8 r r4
+		des8 r des r des r des r %85
+		r c\f c' c h r b r
+		a r f r g r a r
+		b b, b' b a r as r
+		g r es r f r g r
+		as as, as' as g4 f %90
+		e f h,8 h h h
+		c c h h c c c c
+		f, r f'\p r f\f r r4
+		e8\p r e r e\f r r4
+		f8\p r es r des r des r %95
+		c1~\f
+		c~-\tasto
+		c~
+		c
+		f,~ %100
+		f~
+		f~
+		f\fermata \bar "||" %103 finis
+	}
+}
+
+SanctaMariaBassFigures = \figuremode {
+	r4 <[6]>2 <6 5>4
+	r <[6]>2 <[6 5]>4
+	r4. <6!>8 <6>4 <[6] 5>
+	r <8 6>8 <7 [5]> <6 4> <5 _!>4.
+	<[_!]>4 <[6]> <[6] 5>2 %5
+	<_!>4 <[6-] 4>8 <\t \t> <\t \t> <[5] _!>4.
+	r4 <6! 4>8 <6> q <[6!]> <6>4
+	<6!>4. <[5 4]>8 <[6 5]> <[6 4]>16 <[5 _!]> r8 <5>
+	<6 4>4 <5 [_!]> r <[6]>
+	r q2. %10
+	r4 <6>8 <7 [_!]> <4> <3> <5> <6>
+	<6->4 <6 5> <9 4>8 <8 3> <\t \t>4
+	r4 <6>8 <7> <4> <3> r <6>
+	<6->4 <6>8 <5-> <4-> <3>4.
+	r4 <[6]> r q %15
+	r q q q
+	<5->1
+	<6 [_-]>2 r8 <[6]> <4> <3>
+	r4 <[6]> <5>8 <6> <5> <6>
+	<5> <6-> <5-> <6> r2 %20
+	r <6!>4 <\t>
+	<7>2. <[6]>4
+	r q8 <7->8<4-> <3> <6>4
+	<4->8 <3> <[6]>2 <5>8 <3>
+	<6 4> <5 3> r4. <5>8 <4 2> <3 1> %25
+	<5>2. <[6]>4
+	r <[6 5]> r <[6]>
+	r <[6 5]> r4. <6!>8
+	<6>8 <[6!]> <5>2 <[6]>4
+	r <6>8 <7 [_!]> <4> <3> r <6> %30
+	<6->4 <6>8 <7> <9 4> <8 3> <\t \t>4
+	r4 <6>8 <7> <4> <3> r <6>
+	<6->4 <6>8 <7-> <4-> <3> <[6]>4
+	<_!> <6>8 <7 [_+]> <4> <_!> r <6 [_!]>
+	q4 q8 <7 [_!]> <9 4> <8 3>4. %35
+	r4 <[6]> r q
+	r q q q
+	<6 5>2. <[6]>4
+	r <5>2.
+	<7! 4>4 <7- 3> <6 4> <7! 4> %40
+	<8>8 <7-> <5> <6> <6 4>4 <5 3>
+	r4 <4>8 <3> r4 <[6]>
+	r q2.
+	<_->1
+	<6 5> %45
+	r4 <4 2> <5> <_!>
+	<_->4. <6 [_-]>8 <4!> <6> <6 5 [_-]> <_!>
+	r1
+	<6 5>
+	r2 <[7] _!> %50
+	<_-> <_!>
+	<7>4 <6> <\t> <6!>
+	<[_!]>1
+	r4 <10> r8 <10!> <5-> <[7- _!]>
+	<_!>4 <_-> r8 <_!> <5-> <[7- _!]> %55
+	<_!>4 <_-> r8 <_!> <5-> <[7 _!]>
+	r8 <_!> <5-> <[7-]> r <9> r <7>
+	r4 <6 5> <5 4> <\t 3>
+	r1
+	<[6 5-]> %60
+	r2 <[7-]>
+	r8 <[7-]>4 \bassFigureExtendersOn <7->8 \bassFigureExtendersOff r <[6]> <[6 5]>4
+	r1
+	<6 5->
+	<4 2> %65
+	<[6-]>2 <7 _!>
+	r1
+	<3>4 <10> r8 <10> <5-> <[7-]>
+	<_!>4 <_-> <7 2> <7- _!>
+	<6 [4-]> <5 3> <5-> <4 2> %70
+	<6-> <\t> <7-> <6 4>
+	<5 4> <\t 3>8 <[6]> <7 _!>4 <6 4>
+	<5 4> <\t _->8 <[6 _!]> <7>4 <6\\>
+	<_!> <6 4>8 <7 [_!]> <6 4>4 <5 _!>
+	r1 %75
+	<6 5>
+	r
+	r8 <[9 _!]> <[6]> <[5]> r <[6]> <[6 5]> <[_!]>
+	r1
+	<6 5> %80
+	<4! _->
+	<6>
+	<6! [5- 3]>2 <\t [4] \t>
+	r <6->4 <[5]>
+	<6!>1 %85
+	r8 <_!>4. <5>4 <4! 2>
+	<6> <[_!]> <6!> <5->
+	r2 <5>4 <4 2>
+	<6>2 <6!>4 <5->
+	r4. <[6]>8 <6!>4 <[5 4]> %90
+	<6 5>2 q
+	<_!>4 <6 5> <5 4> <\t _!>
+	r1
+	<6 5>
+	r4 <[6]> <7> <6!> %95
+	<[_!]>1
+	r
+	r
+	r
+	r %100
+	r
+	r
+	r %103 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

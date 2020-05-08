@@ -168,3 +168,113 @@ KyrieViolinoII = {
 		c r r\fermata \bar "|." %158 finis
 	}
 }
+
+SanctaMariaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoSanctaMaria
+		a'4\fE a g8 g g8. g16
+		f8 a4 a8 g g g4
+		f f8 g g g g4
+		g8 g f e e d r4
+		d e g8 g r4 %5
+		g4. a8 g g r4
+		h, c8 d e f g4
+		g g8 g g4 g8 a
+		g2 g4 r
+		R1 %10
+		e8. e16 d8 d c8. d16 e4
+		f g8 g g f r4
+		a8 a g g f8. g16 a4
+		g f8 f f f r4
+		b b b b8 b %15
+		b8. b16 b4 b b8 b
+		f2 f4 r8 f
+		f2 f8 b b a
+		b4 r r2
+		R1 %20
+		f8. f16 f8 f g4 g
+		g g8 g a8. a16 a4
+		a4. a8 f4 f8 a
+		f4 f8 a g4. f8
+		f e r e f g \appoggiatura g f4 %25
+		e r a a
+		g8 g g8. g16 f8 a4 a8
+		g g16 g g8. g16 f8 f4 g8
+		g g16 g g8. g16 g4 r
+		e d c8. d16 e4 %30
+		f g8 g g f r4
+		a g8 g f8. g16 a4
+		g f8 f f f r4
+		g a8 a g8. a16 h4
+		a g8 g g g r4 %35
+		f8 f f f f4 f
+		f f8 f f4 f8 f
+		g2 f4 r8 a
+		a4 g g r8 c
+		h4 b a f %40
+		g8 g f g f4 e\trill
+		f8 f f e f4 r \noBreak
+		R1 \bar "||"
+		\key f \dorian \tempoSalus r8 as,\p r as r as(\f c f) \noBreak
+		r b,\p r b r b(\f e c') %45
+		r f,\p r g r as r a
+		b4\f des e8 f g, e'
+		r as,,\p r as r as(\f c f)
+		r b,\p r b r b(\f e c')
+		r f,\p as f r f a, es' %50
+		r f b, f' r c e c
+		r f r f r f r f
+		e4 r r2
+		r8 c\f c'-! c-! h4-! b-!
+		a as g c8 a %55
+		f4 b g f~
+		f es2 f8 f
+		es4 f es2
+		r8 c\p r c r c(\f es as)
+		r des,\p r des r des(\f g, es') %60
+		r c( es as) g4 b
+		des b as8 as b, g'
+		r c,\p r c r c(\f es as)
+		r des,\p r des r des(\f g, es')
+		r c(\p es as) r c,( es as) %65
+		r f as des r d f f,
+		es4 r r2
+		R1
+		r8 as,\f as'-! as-! g4-! ges-!
+		f es r8 b' as as %70
+		as2 g4 as~
+		as g8 f e4 f~
+		f es8 d! c2
+		h4 c8 c c4 h
+		c8 \noBeam es\p r es r es(\f g c) %75
+		r f,\pE r f r \once \slurDashed f(\fE h, g')
+		r2 r8 c f16( e f c)
+		h8. c16 d4 g,8 c d, h'
+		r es,\p r es r es(\f g c)
+		r f,\pE r f r \once \slurDashed f(\fE h, g') %80
+		r des\pE r des r \once \slurDashed des(\f b e)
+		r c\p r c r c(\f as' f)
+		r g(\p b g) r g( b c)
+		r as( c f) r as,( c f)
+		r h, r h r h r f %85
+		e4 r8 e\f r f r g
+		c,4 r8 a' b r c r
+		f,4 r8 d r es r f
+		b,4 r8 g' as r b r
+		as4 r8 f e4 f %90
+		g f f2
+		e4 f f e
+		f8 \noBeam as,\p r as r as(\f c f)
+		r b,\p r b r b(\f e g)
+		r c,\p r c r c r h %95
+		c4 r r2
+		r8 c\f c'-! c-! h4-! b-!
+		a as f \once \tieDashed g~
+		g8 c, f2 e4
+		f r r2 %100
+		r4 r8 f g g a4
+		f1
+		f\fermata \bar "||" %103 finis
+	}
+}
