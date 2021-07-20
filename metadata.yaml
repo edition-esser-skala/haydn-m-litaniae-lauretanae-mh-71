@@ -1,0 +1,17 @@
+composer: Haydn, Johann Michael
+title: Litaniae lauretanae
+id: MH 71
+genre: litany
+scoring: S (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org solo
+sources:
+  1:
+    siglum: A-Ed
+    shelfmark: G 126
+    type: manuscript copy
+    date: unknown
+    rism: 600038354
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/302.html
+github: haydn-m-litaniae-lauretanae-mh-71
+imslp: Litaniae_Lauretanae,_MH_71_(Haydn,_Michael)
+notes:
+
