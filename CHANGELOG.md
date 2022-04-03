@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.1.0 – 2022-04-03
+
+### Added
+
+- trb 1 and trb 2 (colla parte with A and T, respectively)
+
+
 ## 2.0.0 - 2021-12-03
 
 ### Changed
