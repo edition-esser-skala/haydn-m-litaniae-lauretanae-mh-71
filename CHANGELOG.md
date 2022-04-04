@@ -4,7 +4,7 @@
 
 ### Added
 
-- trb 1 and trb 2 (colla parte with A and T, respectively)
+- trb 1, 2, and 3 (colla parte with A, T, and B, respectively)
 
 
 ## 2.0.0 - 2021-12-03
